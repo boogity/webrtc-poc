@@ -1,0 +1,33 @@
+{
+    "name": "ms-teams-clone",
+    "version": "0.0.1",
+    "description": "A conference call implementation using WebRTC, Socket.io and Node.js.",
+    "main": "src/app.js",
+    "dependencies": {
+      "express": "^4.17.1",
+      "socket.io": "^2.3.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.2"
+    },
+    "scripts": {
+      "start":"node ./src/app.js",
+      "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ayushman17/ms-teams-clone.git"
+    },
+    "keywords": [
+      "Microsoft",
+      "Teams"
+    ],
+    "author": "Ayushman Singh Chauhan <ascb508@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ayushman17/ms-teams-clone/issues"
+    },
+    "homepage": "https://github.com/ayushman17/ms-teams-clone#readme"
+  }
+  
